@@ -1,0 +1,28 @@
+/* Espaciado para el cuerpo para que el contenido no quede debajo del navbar fijo */
+body {
+    padding-top: 70px; /* Le di un poco más de espacio para que no quede tan justo */
+}
+
+/* Borde sutil para las tarjetas en temas oscuros */
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* Estilos personalizados para badges */
+.badge-custom, .badge-custom-secondary, .badge-custom-tools {
+    color: #fff;
+    font-weight: 500;
+}
+
+.badge-custom {
+    background-color: #4646e6; /* Un azul neón que combina con Vapor */
+}
+
+.badge-custom-secondary {
+    background-color: #303030; /* Un gris oscuro para contraste */
+    border: 1px solid #555;
+}
+
+.badge-custom-tools {
+    background-color: #af42a1; /* Un magenta/púrpura para herramientas */
+}
