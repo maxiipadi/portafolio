@@ -1,21 +1,38 @@
 # Portafolio Profesional de Maximiliano Padilla (RunaTech Dev)
 
-Este es un proyecto académico para la materia "Programación IV" de la Tecnicatura Superior en Desarrollo de Software, extendido con funcionalidades y diseños de nivel profesional.
+![Captura de Pantalla del Portafolio](./img/screenshot.jpg)
 
-## Descripción del Proyecto
+### 🚀 [Ver Demo en Vivo](https://maxiipadi.github.io/portafolio/) 🚀
 
-El objetivo fue construir una página de portafolio moderna y responsiva utilizando el framework Bootstrap. La página incluye secciones clave como "Acerca de Mí", "Proyectos", un formulario de contacto funcional y una presentación del equipo de desarrollo "RunaTech Dev".
+Este es un proyecto académico para la materia "Programación IV" de la Tecnicatura Superior en Desarrollo de Software, extendido con funcionalidades y diseños de nivel profesional para demostrar un manejo avanzado de tecnologías front-end.
 
-## Tecnologías Utilizadas
+## ✨ Features Destacadas
+
+* **Diseño 100% Responsivo:** Perfecta visualización en dispositivos móviles, tablets y de escritorio gracias a Bootstrap 5.
+* **Cabecera Interactiva:** Efecto de tipeo dinámico en el subtítulo principal utilizando la librería **Typed.js**.
+* **Animaciones Sutiles:** Transiciones y efectos de aparición al hacer scroll implementados con **AOS (Animate On Scroll)**.
+* **Detalles de Proyecto en Modales:** Ventanas emergentes de Bootstrap para mostrar información detallada de cada proyecto sin abandonar la página.
+* **Formulario Funcional:** Formulario de contacto con validación de datos en tiempo real y envío de correos a través del servicio **Formspree**.
+
+## 🛠️ Tecnologías Utilizadas
 
 * **HTML5**
 * **CSS3**
-* **Bootstrap 5** - Framework principal para la maquetación y responsividad.
-* **Bootswatch (Vapor Theme)** - Para un diseño visual personalizado.
-* **AOS (Animate On Scroll)** - Librería para animaciones al hacer scroll.
-* **Formspree** - Servicio para la funcionalidad del formulario de contacto.
+* **Bootstrap 5:** Framework principal para la maquetación, componentes y responsividad.
+* **Bootswatch (Vapor Theme):** Para un diseño visual personalizado y moderno.
+* **JavaScript (ES6):** Para la interactividad y la lógica de las librerías.
+* **AOS (Animate On Scroll):** Librería para animaciones al hacer scroll.
+* **Typed.js:** Librería para el efecto de tipeo animado.
+* **Formspree:** Servicio backend para la funcionalidad del formulario de contacto.
 
-## Cómo Ver el Proyecto
+## 💻 Cómo Ver el Proyecto Localmente
 
-1.  Clonar el repositorio: `git clone https://github.com/tu-usuario/tu-repo.git`
-2.  Abrir el archivo `index.html` en cualquier navegador web.
+1.  Clona el repositorio:
+    ```bash
+    git clone [https://github.com/maxiipadi/portafolio.git](https://github.com/maxiipadi/portafolio.git)
+    ```
+2.  Navega al directorio del proyecto:
+    ```bash
+    cd portafolio
+    ```
+3.  Abre el archivo `index.html` en tu navegador web preferido.
