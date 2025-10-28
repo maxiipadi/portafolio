@@ -20,6 +20,16 @@ document.addEventListener('DOMContentLoaded', function () {
     };
     var typed = new Typed('#typed-subtitle', typedOptions);
 
+    // Navbar scroll effect (asegurarse que esté después del DOMContentLoaded)
+    window.addEventListener('scroll', () => {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+
     // CÓDIGO ACTUALIZADO PARA EL FORMULARIO (VALIDACIÓN + SPINNER + SWEETALERT)
     const contactForm = document.getElementById('contact-form');
     const submitButton = document.getElementById('submit-button');
@@ -55,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         title: '¡Mensaje Enviado!',
                         text: 'Gracias por contactarme. Te responderé a la brevedad.',
                         icon: 'success',
-                        confirmButtonColor: '#4646e6'
+                        confirmButtonColor: '#6366f1'
                     });
                     contactForm.reset();
                     contactForm.classList.remove('was-validated');
@@ -64,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         title: 'Error',
                         text: 'Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo.',
                         icon: 'error',
-                        confirmButtonColor: '#af42a1'
+                        confirmButtonColor: '#ec4899'
                     });
                 }
             }).catch(error => {
