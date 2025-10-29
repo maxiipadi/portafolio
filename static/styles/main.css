@@ -345,7 +345,9 @@ section {
     font-weight: 700;
     margin-bottom: 3rem;
     position: relative;
-    display: inline-block;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
 .section-title::after {

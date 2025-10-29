@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     title: 'Error de Conexión',
                     text: 'No se pudo enviar el mensaje. Por favor, revisa tu conexión a internet.',
                     icon: 'error',
-                    confirmButtonColor: '#af42a1'
+                    confirmButtonColor: '#ec4899'
                 });
             }).finally(() => {
                 // ---- RESTAURAR EL BOTÓN ----
